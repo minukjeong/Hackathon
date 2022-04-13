@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <TextView android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:text="구구단게임"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="정답을 입력해주세요!"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+
+
+    -<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="랜덤"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:id="@+id/tv01"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="X"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="랜덤"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:id="@+id/tv02"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="="
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:id="@+id/et01"
+        android:inputType="number"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:text="정답확인"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/iv01"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+    android:layout_height="75dp"
+    android:layout_width="match_parent">
+
+    <Button android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:text="구구단선택"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:id="@+id/button1"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:text="정답확인"
+        android:textSize="30dp"
+        android:layout_weight="1"
+        android:id="@+id/button2"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="match_parent"
+        android:text="시도횟수 : ,맞은횟수 : "
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#0b1b2b"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/tv03"/>
+
+</LinearLayout>

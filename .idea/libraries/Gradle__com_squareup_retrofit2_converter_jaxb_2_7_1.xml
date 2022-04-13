@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.squareup.retrofit2:converter-jaxb:2.7.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-jaxb/2.7.1/1fe51b83d6a9bdf60d0d1931a0957c8b213e5a05/converter-jaxb-2.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-jaxb/2.7.1/5a82d553dd0642b12b047d4df234eca45d8ec452/converter-jaxb-2.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-jaxb/2.7.1/cf4476e423b03d9d7fb62455d59bf9ef1bf4d1bf/converter-jaxb-2.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
